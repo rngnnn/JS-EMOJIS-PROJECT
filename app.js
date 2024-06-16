@@ -18,7 +18,7 @@ async function getEmoji() {
   }
 }
 
-();
+getEmoji();
 
 btnEl.addEventListener("click", () => {
   const randomNum = Math.floor(Math.random() * emoji.length);
