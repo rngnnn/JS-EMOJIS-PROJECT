@@ -23,5 +23,5 @@ getEmoji();
 btnEl.addEventListener("click", () => {
   const randomNum = Math.floor(Math.random() * emoji.length);
   btnEl.innerText = emoji[randomNum].emojiName;
-  emojiNameEl.innerText = emoji[randomNum].emojiCode;
+  emojiNameEl.innerText = emoji[randomNum].emojiC;
 });
